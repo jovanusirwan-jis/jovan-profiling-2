@@ -1,5 +1,13 @@
 package com.advpro.profiling.tutorial.service;
 
+import java.util.List;
+import java.util.Locale;
+import java.util.Random;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.advpro.profiling.tutorial.model.Course;
 import com.advpro.profiling.tutorial.model.Student;
 import com.advpro.profiling.tutorial.model.StudentCourse;
@@ -7,13 +15,6 @@ import com.advpro.profiling.tutorial.repository.CourseRepository;
 import com.advpro.profiling.tutorial.repository.StudentCourseRepository;
 import com.advpro.profiling.tutorial.repository.StudentRepository;
 import com.github.javafaker.Faker;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
-import java.util.Locale;
-import java.util.Random;
-import java.util.stream.Collectors;
 
 /**
  * @author muhammad.khadafi
